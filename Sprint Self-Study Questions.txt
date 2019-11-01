@@ -2,7 +2,7 @@
 
     Semantic HTML consists of instructions that describe the function of elements on a page. Semantic HTML tags provide meaning  to the structure of the document; a <header> tag indicates content in the header of a web page, and a <nav> element indicates a navigation menu or a list of links. Semantic HTML is important for users accessing web sites using screen readers or other accessibility devices, but it is also just as useful for developers so that they can see the overall layout of the HTML document at a glance.
 
-    In constrast to semantic HTML, presentational HTML serves to group items together purely for layout purposes. <div> tags are an example of presentational HTML because they delineate sections but do not indicate what type of content is inside the section. For this reason, it is best to use semantic HTML tags in place of presentational HTML tags whenever possible in order to add specificity and improve readability.
+    In contrast to semantic HTML, presentational HTML serves to group items together purely for layout purposes. <div> tags are an example of presentational HTML because they delineate sections but do not indicate what type of content is inside the section. For this reason, it is best to use semantic HTML tags in place of presentational HTML tags whenever possible in order to add specificity and improve readability.
 
 2. Name two big differences between display: block; and display: inline;.
 
@@ -19,7 +19,7 @@
 
     The padding specifies the amount of space between the content and the border of the element.
 
-    The border enloses the area taken up by the padding and contents, and it can be either made visible to the viewer or hidden.
+    The border encloses the area taken up by the padding and contents, and it can be either made visible to the viewer or hidden.
 
     The margin specifies the amount of space outside the border.
 
