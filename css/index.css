@@ -71,6 +71,45 @@ p {
     margin: 0 auto;
 }
 
+/* CSS for header */
+
+/* Flex container: nav. All 6 links (including the first image) are children. */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+    /* margin-bottom: 25px; */
+}
+
+header a {
+    display: inline-block;
+    
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+
+    width: 20%;
+
+/* Align the text links to the baseline of the logo by making the anchor a flex item as well */
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    padding-bottom: 10px;
+}
+
+header > img
+    {
+        width: 100%; 
+        margin: 25px auto;
+    }
+
+/* end CSS for header */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +151,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +222,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page CSS */
+
+/* override default text-container width */
+#about-intro {
+    width: 100%;
+
+    padding: 20px;
+
+    border-bottom: 2px dotted black;
+    margin-bottom: 30px;
+}
+
+#about-process{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin-bottom: 20px;
+}
+
+#about-process div {
+    border-bottom: 3px dotted #666666;
+    margin-bottom: 20px;
+
+    width: 48%;
+}
+
+
+#about-process img{
+    margin-bottom: 3%;
+
+}
+
+#about-process a {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 2.25em;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    margin-top: 15px;
+
+    color: black;
+    text-decoration: none;
+}
+
+#about-process a:hover {
+    color: white;
+    background-color: black;
+}
+
+.bottom-content .about-page {
+    margin-bottom: 25px;
+}
+
+/* CSS for the contact page */
+
+#phone_number {
+    margin-top: 10px;
+}
+
+#contact_form label {
+    line-height: 2em;
+    
+}
+
+#contact_form input {
+
+    margin: 10px;
+    line-height: 2em;
+
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+
+    padding-left: 10px;
+}
+
+#contact_form input:active,  #contact_form input:hover {
+
+    background-color: #EEEEEE;
+    color: #333333;
 }

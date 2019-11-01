@@ -1,0 +1,37 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+    Semantic HTML consists of instructions that describe the function of elements on a page. Semantic HTML tags provide meaning  to the structure of the document; a <header> tag indicates content in the header of a web page, and a <nav> element indicates a navigation menu or a list of links. Semantic HTML is important for users accessing web sites using screen readers or other accessibility devices, but it is also just as useful for developers so that they can see the overall layout of the HTML document at a glance.
+
+    In contrast to semantic HTML, presentational HTML serves to group items together purely for layout purposes. <div> tags are an example of presentational HTML because they delineate sections but do not indicate what type of content is inside the section. For this reason, it is best to use semantic HTML tags in place of presentational HTML tags whenever possible in order to add specificity and improve readability.
+
+2. Name two big differences between display: block; and display: inline;.
+
+    Elements styled with "display: block" can be given a width and height. They will also take up as much width as their parent container.
+
+    An element styled with "display: inline" cannot be given a width or height. Such an element will only take up as much space as its contents.
+
+
+3. What are the 4 areas of the box model?
+
+    The four areas of the box model are content, padding, border, and margin.
+
+    The innermost layer of the box model consists of the contents of the element. For example, this could be the text inside a <p> tag.
+
+    The padding specifies the amount of space between the content and the border of the element.
+
+    The border encloses the area taken up by the padding and contents, and it can be either made visible to the viewer or hidden.
+
+    The margin specifies the amount of space outside the border.
+
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+
+    "align-items: center" distributes the items along the cross axis.
+
+    If the elements are justified horizontally, the cross axis would be vertical.
+
+    If the elements are justified vertically, the cross axis would be horizontal.
+
+5. Explain why git is valuable to a team of developers.
+
+    Git allows a user to save changes to a project and view a history of those changes. A team of developers will often need to split a project up into smaller portions and subsequently combine them into the final product. Git allows users to see when changes were made, what those changes are, and whether there are any conflicts among the various versions.  Without such a version control system, users would have a difficult time coordinating the distribution and merging aspects by hand.
