@@ -282,3 +282,31 @@ footer nav a {
 .bottom-content .about-page {
     margin-bottom: 25px;
 }
+
+/* CSS for the contact page */
+
+#phone_number {
+    margin-top: 10px;
+}
+
+#contact_form label {
+    line-height: 2em;
+    
+}
+
+#contact_form input {
+
+    margin: 10px;
+    line-height: 2em;
+
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+
+    padding-left: 10px;
+}
+
+#contact_form input:active,  #contact_form input:hover {
+
+    background-color: #EEEEEE;
+    color: #333333;
+}
